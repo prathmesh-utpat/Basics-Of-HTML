@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colspan and Rowspan </title>
+    </head>
+
+    <body>
+
+        <table border="black"> 
+            <caption>Book Sale </caption>
+          
+            <thead>
+
+                <!--every item in table occupies 1col & 1row by col&rowspan we can change this-->
+            <tr>
+                <!--book = occupies 2 rows and 1col-->
+                <th rowspan="2">Book </th>
+                <th colspan="2">price </th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+            </thead>
+    
+            <tbody>
+            <tr> 
+                <td>Atomic Habit </td>
+                <td>Rs.200</td>
+                <td>$2</td>
+            </tr>
+    
+            <tr> 
+                <td>Money Control </td>
+                <td>Rs.200</td>
+                <td>$2</td>
+            </tr>
+            </tbody>
+    
+            <tfoot>
+                <tr>
+                    <td>TOTAL</td>
+                    <td>400</td>
+                    <td>$4</td>
+                </tr>
+            </tfoot>
+    
+        </table>
+    </body>
+</html>
+
+
